@@ -29,7 +29,7 @@ class ASCIIArtist():
 		:rtype: dictionary
 		:return: dictionary where keys are RGB values spaced equally (as possible) and values are random ASCII to be placed for values below their corresponding key
 	"""
-		assert ~shade_consistent, "shade_consistent algorithm(s) still not implemented"
+		assert !shade_consistent, "shade_consistent algorithm(s) still not implemented"
 
 		if not shade_consistent:
 			_matrix = []
